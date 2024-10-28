@@ -121,6 +121,48 @@ main{
 /* team section end*************/
 
 
+/* some fact start*********** */
+.facts{
+  font-size: 45px;
+  font-family: Work Sans;
+  font-weight: 700px;
+  color: #131313;
+  margin-bottom: 40px;
+}
+.variation{
+  font-size: 16px;
+  font-family: Work Sans;
+  color: #727272;
+  
+}
+.facts-card{
+  border: 1px solid #FF900E;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.facts-number{
+  font-size: 45px;
+  font-family:  Work Sans;
+  font-weight: 600;
+  color: #424242;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.facts-name{
+  font-size: 20px;
+  font-weight: 600;
+  color: #727272;
+  margin-top: 10px;
+}
+
+/* some fact end*********** */
+
 
 
 

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* common item */
+.display-flex{
+  display: flex;
+}
+
+/* navbar start **************/
+.architects{
+    color: rgb(30, 30, 30);
+    font-family: Work Sans;
+    font-weight: 700;
+    text-align: center;
+    font-size: 45px;
+}
+.bg-primary{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-item {
+  list-style: none;
+  margin-left: 30px;
+}
+.nav-item .nav-links{
+  text-decoration: none;
+  margin-left: 30px;
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+  /* navbar end ****************/
+
+  /* banner start ******************** */
+  .banner-item{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner-pc{
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+  }
+  .banner-text{
+    font-size: 60px;
+    font-weight: 700;
+    color: #131313;
+  }
+  .banner-p{
+    font-size: 16px;
+    font-family: Work Sans;
+    color: #727272;
+    font-family: Work Sans;
+  }
+  .btn-primary{
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+  }
+/*banner end *********************/
+
+/* team section start********* */
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.teams {
+  align-items: center;
+  margin-top: 50px;
+}
+.teams-image-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+.features{
+  margin-left: 60px;
+}
+.quick{
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: Work Sans;
+}
+.our{
+  color: #131313;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: Work Sans;
+}
+.features-1{
+  color: #FF900E;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: Work Sans;
+}
+.teams-p{
+  color: #727272;
+  font-size: 16px;
+  font-family: Work Sans;
+}
+/* team section end*************/
+
+
+
+
+
+   /* responsive website**************** */
+   @media screen and (max-width: 576px) {
+      .navbar, .nav-item, .teams{
+        flex-direction: column;
+      }
+      .features{
+        grid-template-columns: repeat(1fr,1);
+      }
+      .teams-image-container{
+        grid-template-columns: repeat(1,1fr);
+      }
+   }

@@ -120,6 +120,59 @@ main{
 }
 /* team section end*************/
 
+/* feature part start**********/
+.features-container{
+  margin-top: 60px;
+  gap: 100px;
+}
+.features-name{
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin-left: -20px;
+}
+.features-name{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features-para{
+  color: #727272;
+  font-size: 1rem;
+
+}
+.features-item{
+  box-shadow: 0px 5px 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+  
+}
+.drag{
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+}
+.variation{
+  color: #727272;
+  font-size: 1rem;
+}
+.ten-year{
+  font-size: 60px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.experience{
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.control{
+  padding: 45px;
+  margin-top: -100px;
+  margin-left: -45px;
+}
+/* feature part end**********/
 
 /* some fact start*********** */
 .facts{
@@ -160,17 +213,69 @@ main{
   color: #727272;
   margin-top: 10px;
 }
-
 /* some fact end*********** */
+
+/* Our Sponspors start *******/
+.sponsor{
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.variation{
+  color: #727272;
+  font-size: 16px;
+}
+.item{
+  text-align: center;
+  margin-top: 70px;
+}
+.imagaes-item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  filter: grayscale(100%);
+}
+/* Our Sponspors start ******* */
+
+/* footer start************* */
+.footer{
+  color: #424242;
+  font-size: 20px;
+  font-family:  Work Sans;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #FFF4E7;
+  height: 100px;
+  width: 1200px;
+  margin-left: 160px;
+}
+/* footer end************* */
 
 
 
 
    /* responsive website**************** */
    @media screen and (max-width: 576px) {
-      .navbar, .nav-item, .teams{
+      .navbar, 
+      .nav-item, 
+      .teams,
+      .features-container, 
+      .facts-container{
         flex-direction: column;
       }
+      .banner-pc{
+        margin-left: 0px;
+        align-items: center;
+        width: 100%;
+      }
+      .nav-item{
+        margin-right: 100px;
+      }
+      .architect-picture{
+        width: 100%;
+      }
+      
       .features{
         grid-template-columns: repeat(1fr,1);
       }
